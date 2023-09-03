@@ -14,7 +14,6 @@ The Request-Based Charging Platform is a web application built with Python and D
   - [6. Apply Migrations](#6-apply-migrations)
 - [Running the Development Server](#running-the-development-server)
 - [API Endpoints](#api-endpoints)
-- [Testing with Postman](#testing-with-postman)
 - [Contributing](#contributing)
 - [License](#license)
 
