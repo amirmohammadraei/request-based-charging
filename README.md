@@ -49,7 +49,6 @@ git clone https://github.com/amirmohammadraei/request-based-charging.git
 Navigate to the project directory and create a virtual environment:
 
 ```shell
-cd payasyougo
 python -m venv venv
 ```
 
@@ -84,6 +83,7 @@ DATABASES = {
 Apply database migrations to create the necessary tables:
 
 ```shell
+cd payasyougo
 python manage.py makemigrations
 python manage.py migrate
 ```
