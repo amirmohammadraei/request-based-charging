@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed on your system:
 Clone the project repository to your local machine:
 
 ```shell
-git clone https://github.com/your-username/request-based-charging.git
+git clone https://github.com/amirmohammadraei/request-based-charging.git
 ```
 
 ### 3. Create a Virtual Environment
@@ -50,7 +50,7 @@ git clone https://github.com/your-username/request-based-charging.git
 Navigate to the project directory and create a virtual environment:
 
 ```shell
-cd request-based-charging
+cd payasyougo
 python -m venv venv
 ```
 
@@ -110,15 +110,14 @@ The application should now be accessible at `http://127.0.0.1:8000/`.
 3. **Create Request:** `POST /api/create-request/`
    - Create a new request associated with the authenticated user.
 
-4. **Get User Requests:** `GET /api/user-requests/`
-   - Retrieve all requests made by the authenticated user.
+4. **Request List:** `GET /api/request-list/`
+   - Retrieve a list of all requests associated with the authenticated user.
 
-5. **Current Month Cost:** `GET /api/current-month-cost/`
-   - Get the total cost for the current month for the authenticated user.
+5. **Calculate Total Price:** `GET /api/calculate-total-price/`
+   - Calculate the total price of all requests associated with the authenticated user.
 
-## Testing with Postman
-
-To test the API endpoints, you can use Postman. Import the provided Postman collection (`request-based-charging.postman_collection.json`) into Postman and use it to send requests to the API endpoints.
+6. **Current Month Cost:** `GET /api/current-month-cost/`
+   - Calculate the total price of all requests associated with the authenticated user in the current month.
 
 ## Contributing
 
